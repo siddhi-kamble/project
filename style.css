@@ -1,0 +1,64 @@
+.navigation-header {
+    background-color: antiquewhite;
+    padding: 0 15px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+nav {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.navigation-items {
+    display: flex;
+    gap: 40px;
+  }
+
+
+  /* Skills */
+
+  .slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 300px; /* Adjust width as needed */
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+    width: 300px; /* Adjust width as needed */
+    padding: 100px;
+    background-color: #f0f0f0;
+    margin-right: 100px;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .prev-btn {
+    left: 0;
+  }
+  
+  .next-btn {
+    right: 0;
+  }
+  
